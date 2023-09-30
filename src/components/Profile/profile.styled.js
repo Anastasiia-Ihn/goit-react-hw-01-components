@@ -1,18 +1,18 @@
 import styled from "styled-components";
 
 export const ContainerUser = styled.div`
- margin-left: auto;
-    margin-right: auto;
-
+ margin: auto;
+margin-top: 100px;
+margin-bottom: 100px;
 width: 300px;
-height: 300px;
-background-color: #865896;
+height: 400px;
 color: black;
 `
 
 export const Description = styled.div`
+padding-top: 15px;
+padding-bottom: 15px;
 width: 100%;
-height: 100%;
 background-color: #fff999;
 `
 
@@ -36,33 +36,34 @@ font-size: 20px;
  text-align: center;
 `
 
-// export const Location = styled.p`
-// font-size: 20px;
-// align-items: center;
-// `
-
 export const Stats = styled.ul`
 display: flex;
-gap: 5px;
+gap: px;
 margin: 0;
 padding: 0;
 
 background-color: #859632;
-
 `
 
 export const ElemStats = styled.li`
 text-decoration: none;
 display: flex;
 flex-wrap: wrap;
+border: 1px solid #fff822 ;
 font-size: 18px;
-
-width: calc((300px - 10px)/3);
+justify-content: center;
+align-items: center;
+width: calc((300px)/3);
+height: 80px;
 `
 
 export const Label = styled.span`
+width: 98px;
 text-align: center;
 `
 
 export const Quantity = styled.span`
-font-weight: 800;`
+width:98px;
+font-weight: 700;
+text-align: center;
+`

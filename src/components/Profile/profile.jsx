@@ -1,22 +1,17 @@
-import user from 'user.json'
-import { Avatar, ContainerUser, Description, ElemStats, Label, Name, Quantity, Stats, Tag } from './profile.styled.js';
 
-console.log(user);
-export const ProfileUser = () => {
-   
-    const { username, tag, location, avatar, stats } = user
-    console.log(stats.followers);
+import { ContainerUser, Description, Avatar, Name, Tag, ElemStats, Label,  Quantity, Stats } from './profile.styled.js';
+
+export const ProfileUser = ({ username, avatar, tag, location, stats }) => {
     return <ContainerUser>
-  <Description>
+<Description>
     <Avatar
                 src={avatar }
                 alt={username }
       />
             <Name>{ username}</Name>
-            <Tag>{ tag}</Tag>
+        <Tag>@{ tag}</Tag>
             <Tag>{ location}</Tag>
   </Description>
-
   <Stats>
     <ElemStats>
       <Label >Followers</Label>
@@ -28,12 +23,9 @@ export const ProfileUser = () => {
     </ElemStats>
     <ElemStats>
       <Label >Likes</Label>
-                <Quantity >{ stats.likes}</Quantity>
+     <Quantity >{ stats.likes}</Quantity>
     </ElemStats>
   </Stats>
 </ContainerUser>
 
-
  }
-
- ProfileUser(user)
