@@ -10,7 +10,7 @@ import {
   Stats,
 } from './profile.styled.js';
 
-export const ProfileUser = ({ username, avatar, tag, location, stats }) => {
+export const Profile = ({ username, avatar, tag, location, stats }) => {
   return (
     <ContainerUser>
       <Description>
