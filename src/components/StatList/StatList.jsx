@@ -4,7 +4,7 @@ import {
   SpanForText,
   StatListContainer,
 } from './statList.styled';
-import { randomColor } from '../funcRandomColor';
+import { randomColor } from '../../helpers/randomColor';
 
 export const StatList = ({ stats }) => {
   return (

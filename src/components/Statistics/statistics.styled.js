@@ -10,3 +10,8 @@ export const ContainerForStats = styled.section`
 
   background-color: #fff999;
 `;
+
+export const Title = styled.h2`
+  text-align: center;
+  color: #111111;
+`;
