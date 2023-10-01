@@ -1,8 +1,6 @@
-import styled from "styled-components";
-
+import styled from 'styled-components';
 
 export const Title = styled.h2`
-text-align:center;
-color: #111111
-
-`
+  text-align: center;
+  color: #111111;
+`;
