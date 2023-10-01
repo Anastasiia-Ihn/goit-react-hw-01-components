@@ -2,5 +2,6 @@ import { Title } from './title.styled.js';
 
 
 export const TitleForSection = (props) => {
-    return <Title>{props.children}</Title>
+    console.log(props.children);
+    if (props.children) { return <Title>{props.children}</Title> }
 }
