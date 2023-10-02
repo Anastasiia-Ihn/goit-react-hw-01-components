@@ -1,14 +1,14 @@
 import {
+  Avatar,
   ContainerUser,
   Description,
-  Avatar,
-  Name,
-  Tag,
   ElemStats,
   Label,
+  Name,
   Quantity,
   Stats,
-} from './profile.styled.js';
+  Tag,
+} from './profile.styled';
 
 export const Profile = ({ username, avatar, tag, location, stats }) => {
   return (

@@ -1,10 +1,11 @@
+import { randomColor } from '../../helpers/randomColor';
+
 import {
   ElemStat,
   SpanForPerc,
   SpanForText,
   StatListContainer,
 } from './statList.styled';
-import { randomColor } from '../../helpers/randomColor';
 
 export const StatList = ({ stats }) => {
   return (

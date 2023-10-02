@@ -1,4 +1,4 @@
-import { StatList } from '../StatList/StatList';
+import { StatList } from 'components/StatList/StatList';
 import { ContainerForStats, Title } from './statistics.styled';
 
 export const Statistics = ({ title, stats }) => {
